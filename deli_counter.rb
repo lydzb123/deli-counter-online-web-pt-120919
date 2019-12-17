@@ -7,7 +7,7 @@ def line(array)
     current_line = []
     current_line << array.each_with_index{|name, index| "#{index}. #{name}"}
     # puts "The line is currently: #{current_line.join("X")}"
-
+puts current_line
 end
 end
 
