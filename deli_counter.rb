@@ -5,13 +5,10 @@ def line(array)
   if array.count < 1
     puts "The line is currently empty."
   else
-    array.each_with_index{|name, index| puts "#{index}. #{name}"
+    array.each_with_index{|name, index| puts "#{index+1}. #{name}"
     index +=1
 
-    colors.each_with_index { |item, index| p "#{index}:#{item}" }
-"0:red"
-"1:green"
-"2:blue"
+
 
 end
 end
