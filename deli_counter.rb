@@ -10,5 +10,5 @@ end
 
 
 def take_a_number(array, name)
-  puts "#{name}
+  puts "#{name} array.count
   end
