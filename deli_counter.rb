@@ -6,7 +6,7 @@ def line(array)
 
   elsif array.count > 1
     current_line = []
-    current_line << array.each_with_index{|name, index| puts "#{index+1}. #{name}"}.join(" ")}
+    current_line << array.each_with_index{|name, index| puts "#{index+1}. #{name}"}
     puts "The line is currently: #{current_line}"
 
 end
