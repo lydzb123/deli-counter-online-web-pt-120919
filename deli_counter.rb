@@ -13,8 +13,8 @@ def line(array)
 
 end
 end
-
-let(:other_deli) { ["Logan", "Avi", "Spencer"] }
-
-#["Tony", "Peter", "Kevin"] need a loop to touch every item of the array
-"1. Tony 2. Peter 3. Kevin"
+# 
+# let(:other_deli) { ["Logan", "Avi", "Spencer"] }
+# 
+# #["Tony", "Peter", "Kevin"] need a loop to touch every item of the array
+# "1. Tony 2. Peter 3. Kevin"
