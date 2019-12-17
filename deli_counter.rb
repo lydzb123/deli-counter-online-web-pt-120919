@@ -31,7 +31,7 @@ def now_serving(array)
 
 end
 
-puts take_a_number([], "Kim")
+puts now_serving(["Kim", "David", "Warren"])
 
 
 #
