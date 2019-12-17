@@ -23,7 +23,10 @@ end
 def now_serving(array)
   if array.count < 1
     puts "Line is empty"
+  else
+    puts "Now serving #{array[0]}"
   end
+
 end
 
 puts take_a_number([], "Kim")
