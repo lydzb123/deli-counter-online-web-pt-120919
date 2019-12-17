@@ -6,8 +6,10 @@ def line(array)
     puts "The line is currently empty."
   else
 
-    puts "The line is currently:"
-    array.each.with_index(1){|name, index| puts "index. name" }
+    numbered_list = []
+    numbered_list << array.each.with_index(1){|name, index| puts "index. name" } 
+    puts "The line is currently: numbered_list"
+
 end
 end
 
