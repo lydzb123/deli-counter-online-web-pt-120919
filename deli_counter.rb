@@ -10,6 +10,9 @@ def line(array)
 end
 end
 
+def take_a_number
+end
+
 print line(["Logan", "Avi", "Spencer"])
 
 #
