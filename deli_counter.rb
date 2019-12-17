@@ -6,10 +6,6 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index{|name, index| puts "#{index+1}. #{name}"
-    index +=1
-
-
-
 end
 end
 
