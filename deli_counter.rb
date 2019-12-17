@@ -21,6 +21,7 @@ def take_a_number(array, person)
 end
 
 def now_serving
+
 end
 
 puts take_a_number([], "Kim")
