@@ -7,8 +7,8 @@ def line(array)
   else
 
     numbered_list = []
-    numbered_list << array.each.with_index(1){|name, index| puts "index. name" } 
-    puts "The line is currently: numbered_list"
+    numbered_list << array.each.with_index(1){|name, index| puts "index. name" }
+    puts "The line is currently: #{numbered_list}"
 
 end
 end
