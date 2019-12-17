@@ -6,7 +6,7 @@ def line(array)
 
   else
     current_line = []
-    current_line << array.each{|name| name
+    current_line << array.each{|name| name}
     puts "The line is currently: #{current_line}"
 
 end
