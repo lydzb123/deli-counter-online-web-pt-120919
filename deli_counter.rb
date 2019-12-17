@@ -11,6 +11,7 @@ end
 end
 
 def take_a_number(person)
+  puts "Welcome, #{person}. You are number 1 in line."
 end
 
 
