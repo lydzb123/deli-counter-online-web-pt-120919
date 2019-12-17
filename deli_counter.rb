@@ -6,15 +6,13 @@ def line(array)
 
   else
     current_line = []
-
-
-    current_line << array.each{|name| puts "#{name}"}
+    current_line << array.each{|name| name
     puts "The line is currently: #{current_line.join(" ")}"
 
 end
 end
 #
 # let(:other_deli) { ["Logan", "Avi", "Spencer"] }
-# 
+#
 # #["Tony", "Peter", "Kevin"] need a loop to touch every item of the array
 # "1. Tony 2. Peter 3. Kevin"
