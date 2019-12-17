@@ -5,7 +5,7 @@ def line(array)
   if array.count < 1
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{array.each_with_index(" "){|name, index| puts "#{index+1}. #{name}"}}
+    puts "The line is currently: #{array}
   "
 end
 end
