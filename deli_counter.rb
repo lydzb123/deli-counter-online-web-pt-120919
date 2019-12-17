@@ -13,7 +13,6 @@ end
 def take_a_number(person)
 end
 
-print line(["Logan", "Avi", "Spencer"])
 
 #
 # let(:other_deli) { ["Logan", "Avi", "Spencer"] }
