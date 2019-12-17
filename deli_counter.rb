@@ -5,9 +5,13 @@ def line(array)
   if array.count < 1
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{array.join}"
+
+    puts "The line is currently: #{array.each.with_index(1) do |name, index|
+    puts "#{index}. #{name}"
+
 end
 end
+
 
 
 
