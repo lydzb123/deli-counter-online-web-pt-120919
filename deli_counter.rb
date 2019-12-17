@@ -4,12 +4,11 @@ def line(array)
   index = 0
   if array.count < 1
     puts "The line is currently empty."
-  else
 
+  else
     numbered_list = []
     numbered_list << array.each_with_index{|name, index| puts "#{index+1}. #{name}" }
     puts "The line is currently: #{numbered_list}"
-
 end
 end
 
