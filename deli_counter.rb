@@ -1,4 +1,3 @@
-
 def line(array)
   if array.count < 1
     puts "The line is currently empty."
@@ -29,7 +28,7 @@ def now_serving(array)
 end
 
 
-#
+
 # let(:other_deli) { ["Logan", "Avi", "Spencer"] }
 #
 # #["Tony", "Peter", "Kevin"] need a loop to touch every item of the array
