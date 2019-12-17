@@ -6,9 +6,9 @@ def line(array)
     puts "The line is currently empty."
 
   else
-    numbered_list = []
-    numbered_list << array.each_with_index{|name, index| puts "#{index+1}. #{name}"}
-    puts "The line is currently: #{numbered_list.join(" ")}"
+    current_line = []
+    current_line << array.each_with_index{|name, index| puts "#{index+1}. #{name}"}
+    puts "The line is currently: #{current_line.join(" ")}"
 end
 end
 
