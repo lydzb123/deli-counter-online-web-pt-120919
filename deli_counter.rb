@@ -11,7 +11,6 @@ puts current_line
 end
 end
 
-print line(["Logan", "Avi", "Spencer"])
 
 #
 # let(:other_deli) { ["Logan", "Avi", "Spencer"] }
