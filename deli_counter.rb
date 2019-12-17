@@ -8,8 +8,7 @@ def line(array)
   else
     numbered_list = []
     numbered_list << array.each_with_index{|name, index| puts "#{index+1}. #{name}"}
-    print numbered_list
-    puts "The line is currently: #{numbered_list}"
+    puts "The line is currently: #{numbered_list.join(" ")}"
 end
 end
 
