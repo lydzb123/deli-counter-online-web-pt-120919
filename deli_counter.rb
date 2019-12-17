@@ -7,10 +7,10 @@ def line(array)
     current_line = []
     current_line << array.each_with_index{|name, index| p "#{index}. #{name}"}
     # puts "The line is currently: #{current_line.join("X")}"
-puts current_line
 end
 end
 
+print line(["Logan", "Avi", "Spencer"])
 
 #
 # let(:other_deli) { ["Logan", "Avi", "Spencer"] }
