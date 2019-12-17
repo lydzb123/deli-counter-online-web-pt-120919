@@ -8,6 +8,7 @@ def line(array)
 end
 end
 
+
 def take_a_number(array, person)
   if array.count < 1
     puts "Welcome, #{person}. You are number 1 in line."
@@ -17,6 +18,7 @@ def take_a_number(array, person)
     puts "Welcome, #{person}. You are number #{array.count} in line."
   end
 end
+
 
 def now_serving(array)
   if array.count < 1
