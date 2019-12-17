@@ -3,7 +3,6 @@ katz_deli = []
 def line(array)
   if array.count < 1
     puts "The line is currently empty."
-
   else
     current_line = []
     current_line << array.each_with_index{|name, index| index name}
@@ -11,6 +10,8 @@ def line(array)
 
 end
 end
+
+line(["Logan", "Avi", "Spencer"])
 #
 # let(:other_deli) { ["Logan", "Avi", "Spencer"] }
 #
