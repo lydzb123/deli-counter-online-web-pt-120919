@@ -14,6 +14,7 @@ def take_a_number(array, person)
   if array.count < 1
   puts "Welcome, #{person}. You are number 1 in line."
   end
+  array << person
 end
 
 puts take_a_number([], "Kim")
