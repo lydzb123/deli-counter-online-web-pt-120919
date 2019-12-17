@@ -16,7 +16,7 @@ def take_a_number(array, person)
   end
 end
 
-take_a_number([], "Kim")
+puts take_a_number([], "Kim")
 
 
 #
