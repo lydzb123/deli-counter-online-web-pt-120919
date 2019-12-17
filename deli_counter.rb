@@ -20,8 +20,10 @@ def take_a_number(array, person)
   end
 end
 
-def now_serving
-
+def now_serving(array)
+  if array.count < 1
+    puts "Line is empty"
+  end
 end
 
 puts take_a_number([], "Kim")
