@@ -6,6 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else
     puts "The line is currently #{array.each.insert(0, index+1)}"
+    index +=1
 end
 end
 
