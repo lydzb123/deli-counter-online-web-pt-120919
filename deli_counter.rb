@@ -25,6 +25,7 @@ def now_serving(array)
     puts "Line is empty"
   else
     puts "Now serving #{array[0]}"
+    array.shift!
   end
 
 end
