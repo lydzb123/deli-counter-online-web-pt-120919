@@ -13,7 +13,7 @@ end
 def take_a_number(person)
   if array.count < 1
   puts "Welcome, #{person}. You are number 1 in line."
-end
+  end
 end
 
 
